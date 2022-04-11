@@ -1,4 +1,4 @@
-import { createContext, useEffect } from "react";
+import { createContext, useEffect, useState } from "react";
 
 const getInitTheme = () => {
     if (typeof window !== "undefined" && window.localStorage) {
