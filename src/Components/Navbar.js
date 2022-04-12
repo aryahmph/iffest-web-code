@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import BrandIcon from "./BrandIcon";
+import { ThemeToggler } from './ThemeToggler';
 
 export default function Navbar(props) {
     const activeNavClassname = "text-primary hover:underline font-medium";
@@ -47,7 +48,9 @@ export default function Navbar(props) {
                                         " hover:underline py-2 mx-8 flex"}
                                              to='/about-us'>About Us</NavLink>
                                 </li>
-
+                                <li>
+                                    <ThemeToggler />
+                                </li>
                             </ul>
                         </nav>
                     </div>

@@ -12,7 +12,7 @@ body {
     }
 
     .hamburger-line {
-        @apply w-[30px] h-[2px] my-2 block bg-black
+        @apply w-[30px] h-[2px] my-2 block bg-black dark:bg-white
     }
 
     .hamburger-active > span:nth-child(1) {
@@ -37,5 +37,10 @@ body {
 
     .btn-shadow {
         box-shadow: 0 8px 15px rgba(50, 82, 223, 0.2);
+    }
+
+    .dm-toggle {
+        @apply text-secondary bg-transparent rounded-md border-2 border-transparent mt-3 lg:mt-0 w-full lg:w-fit lg:ml-8 box-border
+        hover:text-primary transition-colors duration-100 ease-linear h-full px-2 flex justify-center items-center; 
     }
 }
