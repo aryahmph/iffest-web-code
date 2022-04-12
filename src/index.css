@@ -41,6 +41,6 @@ body {
 
     .dm-toggle {
         @apply text-secondary bg-transparent rounded-md border-2 border-transparent mt-3 lg:mt-0 w-full lg:w-fit lg:ml-8 box-border
-        hover:text-primary transition-colors duration-100 ease-linear h-full px-2 flex justify-center items-center; 
+        hover:text-primary transition-colors duration-100 ease-linear h-full px-2 flex justify-items-start lg:justify-center items-center ml-4;
     }
 }
