@@ -25,7 +25,7 @@ function Testimonial(props) {
                         Maecenas in pulvinar.</p>
                     <div className="mt-6 md:mt-16">
                         <h5 className="font-semibold text-primary text-lg lg:text-xl">Shinomiya Kaguya</h5>
-                        <h6 className="text-secondary font-medium text-sm lg:text-base">Gubernur Bali</h6>
+                        <h6 className="mt-1 text-secondary font-medium text-sm lg:text-base">Gubernur Bali</h6>
                     </div>
                 </div>
             </div>

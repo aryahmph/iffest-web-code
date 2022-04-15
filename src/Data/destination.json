@@ -1,0 +1,39 @@
+{
+  "destination": [
+    {
+      "id": 1,
+      "name": "Pura Uluwatu",
+      "slug": "pura-uluwatu",
+      "img": "popular-2.jpg",
+      "description": "Pura Luhur Uluwatu is a temple located in the Pecatu Traditional Village area"
+    },
+    {
+      "id": 2,
+      "name": "Nusa Penida",
+      "slug": "nusa-penida",
+      "img": "popular-5.jpg",
+      "description": "Nusa Penida is an island located southeast of Bali which is separated by the Badung Strait"
+    },
+    {
+      "id": 3,
+      "name": "Kuta Beach",
+      "slug": "pantai-kuta",
+      "img": "popular-1.jpg",
+      "description": "Kuta Beach is a tourism place located in Kuta sub-district, south of Denpasar City"
+    },
+    {
+      "id": 4,
+      "name": "Pura Tanah Lot",
+      "slug": "pura-tanah-lot",
+      "img": "popular-3.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt?"
+    },
+    {
+      "id": 5,
+      "name": "Nusa Penida",
+      "slug": "nusa-penida",
+      "img": "popular-4.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt?"
+    }
+  ]
+}

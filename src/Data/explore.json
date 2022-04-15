@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "title": "Local Culture",
+    "data": [
+      {
+        "id": 1,
+        "title": "Upacara Ngaben",
+        "slug": "upacara-ngaben",
+        "short_description": "Ngaben ceremony is part of the teachings of Hinduism. This tradition aims to purify the spirits of the dead",
+        "img_url": "popular-2.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Gebug Ende Seraya",
+        "slug": "gebug-ende-seraya",
+        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
+        "img_url": "popular-2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Gebug Ende Seraya",
+        "slug": "gebug-ende-seraya",
+        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
+        "img_url": "popular-2.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Gebug Ende Seraya",
+        "slug": "gebug-ende-seraya",
+        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
+        "img_url": "popular-2.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Traditional Dances",
+    "data": [
+      {
+        "id": 1,
+        "title": "Upacara Ngaben",
+        "slug": "upacara-ngaben",
+        "short_description": "Ngaben ceremony is part of the teachings of Hinduism. This tradition aims to purify the spirits of the dead",
+        "img_url": "popular-2.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Gebug Ende Seraya",
+        "slug": "gebug-ende-seraya",
+        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
+        "img_url": "popular-2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Gebug Ende Seraya",
+        "slug": "gebug-ende-seraya",
+        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
+        "img_url": "popular-2.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Gebug Ende Seraya",
+        "slug": "gebug-ende-seraya",
+        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
+        "img_url": "popular-2.jpg"
+      }
+    ]
+  }
+]

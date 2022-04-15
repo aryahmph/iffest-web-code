@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import BrandIcon from "./BrandIcon";
-import { ThemeToggler } from './ThemeToggler';
+import {ThemeToggler} from './ThemeToggler';
 
 export default function Navbar(props) {
     const activeNavClassname = "text-primary hover:underline font-medium";
@@ -13,7 +13,8 @@ export default function Navbar(props) {
     }
 
     return (
-        <header className="h-[60px] lg:h-[80px] absolute top-0 left-0 z-10 flex w-screen items-center bg-transparent border-b-2">
+        <header
+            className="h-[60px] lg:h-[80px] absolute top-0 left-0 z-10 flex w-screen items-center bg-transparent border-b-2">
             <div className="container">
                 <div className="relative flex items-center justify-between">
                     <div>
@@ -21,16 +22,15 @@ export default function Navbar(props) {
                     </div>
                     <div className="flex items-center">
                         <button onClick={humbergerClick} type="button"
-                                className={(isClicked ? "hamburger-active" : "") + " absolute z-[99] right-4 block lg:hidden"}>
+                                className={`${isClicked ? "hamburger-active" : ""} absolute z-[99] right-4 block lg:hidden`}>
                             <span className="hamburger-line origin-top-left transition duration-300 ease-in-out"/>
                             <span className="hamburger-line transition duration-300 ease-in-out"/>
                             <span className="hamburger-line origin-bottom-left transition duration-300 ease-in-out"/>
                         </button>
 
                         <nav
-                            className={(isClicked ? "" : "hidden") +
-                                " absolute py-6 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full" +
-                                " lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none"}>
+                            className={`${isClicked ? "" : "hidden"} absolute py-6 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full
+                            lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none`}>
                             <ul className="block lg:flex">
                                 <li>
                                     <NavLink className={({isActive}) => (isActive ? activeNavClassname : "") +
@@ -49,7 +49,7 @@ export default function Navbar(props) {
                                              to='/about-us'>About Us</NavLink>
                                 </li>
                                 <li>
-                                    <ThemeToggler />
+                                    <ThemeToggler/>
                                 </li>
                             </ul>
                         </nav>
