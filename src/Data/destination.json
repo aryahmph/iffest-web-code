@@ -26,14 +26,14 @@
       "name": "Pura Tanah Lot",
       "slug": "pura-tanah-lot",
       "img": "popular-3.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt?"
+      "description": "Pura Tanah Lot is an ancient Hindu temple located in Tanah Lot"
     },
     {
       "id": 5,
-      "name": "Nusa Penida",
-      "slug": "nusa-penida",
+      "name": "Sanur Beach",
+      "slug": "pantai-sanur",
       "img": "popular-4.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt?"
+      "description": "Sanur Beach is a coastal stretch of beach east of Denpasar in southeast Bali."
     }
   ]
 }

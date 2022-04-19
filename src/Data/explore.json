@@ -8,28 +8,28 @@
         "title": "Upacara Ngaben",
         "slug": "upacara-ngaben",
         "short_description": "Ngaben ceremony is part of the teachings of Hinduism. This tradition aims to purify the spirits of the dead",
-        "img_url": "popular-2.jpg"
+        "img_url": "popular-lc-1.jpg"
       },
       {
         "id": 2,
         "title": "Gebug Ende Seraya",
         "slug": "gebug-ende-seraya",
         "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
-        "img_url": "popular-2.jpg"
+        "img_url": "popular-lc-2.jpg"
       },
       {
         "id": 3,
-        "title": "Gebug Ende Seraya",
-        "slug": "gebug-ende-seraya",
-        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
-        "img_url": "popular-2.jpg"
+        "title": "Upacara Mekare-kare",
+        "slug": "upacara-mekare-kare",
+        "short_description": "Mekare-kare ceremony is a Balinese tradition of ritual combat with clubs made of pandan.",
+        "img_url": "popular-lc-3.jpg"
       },
       {
         "id": 4,
-        "title": "Gebug Ende Seraya",
-        "slug": "gebug-ende-seraya",
-        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
-        "img_url": "popular-2.jpg"
+        "title": "Upacara Mepandes",
+        "slug": "upacara-mepandes",
+        "short_description": "Mepandes ceremony is a form of ritual for adolescents, typically teenagers, that involves the filing of the canine teeth.",
+        "img_url": "popular-lc-4.jpg"
       }
     ]
   },
@@ -40,31 +40,66 @@
     "data": [
       {
         "id": 1,
-        "title": "Upacara Ngaben",
-        "slug": "upacara-ngaben",
-        "short_description": "Ngaben ceremony is part of the teachings of Hinduism. This tradition aims to purify the spirits of the dead",
-        "img_url": "popular-2.jpg"
+        "title": "Tari Legong",
+        "slug": "tari-legong",
+        "short_description": "Legong is characterized by intricate finger movements, complicated footwork, and expressive gestures and facial expressions.",
+        "img_url": "popular-td-1.jpg"
       },
       {
         "id": 2,
-        "title": "Gebug Ende Seraya",
-        "slug": "gebug-ende-seraya",
-        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
-        "img_url": "popular-2.jpg"
+        "title": "Tari Kecak",
+        "slug": "tari-kecak",
+        "short_description": "Kecak dance is based on the story of the Ramayana and is traditionally performed in temples and villages across Bali.",
+        "img_url": "popular-td-2.jpg"
       },
       {
         "id": 3,
-        "title": "Gebug Ende Seraya",
-        "slug": "gebug-ende-seraya",
-        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
-        "img_url": "popular-2.jpg"
+        "title": "Tari Janger",
+        "slug": "tari-janger",
+        "short_description": "Janger dance is a traditional dance from Bali that tells a story of someone who is madly in love (infatuated).",
+        "img_url": "popular-td-3.jpg"
       },
       {
         "id": 4,
-        "title": "Gebug Ende Seraya",
-        "slug": "gebug-ende-seraya",
-        "short_description": "Gebug Ende is done by fighting two people. Each carries a weapon in the form of a rattan and a protector",
-        "img_url": "popular-2.jpg"
+        "title": "Tari Pendet",
+        "slug": "tari-pendet",
+        "short_description": "Pendet dance is a traditional dance from Bali that is performed as a prelude to ceremonies or other dances.",
+        "img_url": "popular-td-4.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Traditional Cuisines",
+    "data": [
+      {
+        "id": 1,
+        "title": "Betutu",
+        "slug": "betutu",
+        "short_description": "Betutu is an Balinese dish of steamed or roasted chicken or duck in rich bumbu betutu (betutu spice mix)",
+        "img_url": "popular-tc-1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Lawar",
+        "slug": "lawar",
+        "short_description": "Lawar is a Balinese dish created from a mixture of vegetables, coconut and minced meat mixed with rich herbs and spices.",
+        "img_url": "popular-tc-2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Tipat Cantok",
+        "slug": "tipat-cantok",
+        "short_description": "Tipat Cantok is a Balinese dish made of various boiled or blanched vegetables with ketupat rice cake, served in spicy peanut sauce.",
+        "img_url": "popular-tc-3.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Laklak",
+        "slug": "laklak",
+        "short_description": "Laklak is Balinese traditional little pancake with grated coconut and melted palm sugar.",
+        "img_url": "popular-tc-4.jpg"
       }
     ]
   }
