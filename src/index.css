@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden bg-gray-50 text-gray-800 dark:text-gray-50 dark:bg-gray-800;
 }
 
 @layer components {
@@ -12,7 +12,7 @@ body {
     }
 
     .hamburger-line {
-        @apply w-[30px] h-[2px] my-2 block bg-black dark:bg-white
+        @apply w-[30px] h-[2px] my-2 block bg-gray-800 dark:bg-gray-50
     }
 
     .hamburger-active > span:nth-child(1) {
@@ -32,7 +32,7 @@ body {
     }
 
     .btn-primary {
-        @apply text-white bg-primary hover:opacity-90
+        @apply text-gray-50 dark:text-gray-800 bg-primary dark:bg-red-300 transition-colors ease-linear opacity-100 hover:opacity-90
     }
 
     .btn-shadow {
@@ -40,7 +40,7 @@ body {
     }
 
     .dm-toggle {
-        @apply text-secondary bg-transparent rounded-md border-2 border-transparent mt-3 lg:mt-0 w-full lg:w-fit lg:ml-8 box-border
-        hover:text-primary transition-colors duration-100 ease-linear h-full px-2 flex justify-items-start lg:justify-center items-center ml-4;
+        @apply text-gray-800 dark:text-gray-50 bg-transparent rounded-md border-2 border-transparent mt-3 lg:mt-0 w-full lg:w-fit lg:ml-8 box-border
+        hover:text-primary dark:hover:text-red-300 transition-colors duration-100 ease-linear h-full px-2 flex justify-items-start lg:justify-center items-center ml-4;
     }
 }

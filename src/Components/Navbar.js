@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import BrandIcon from "./BrandIcon";
-import {ThemeToggler} from './ThemeToggler';
+import { ThemeToggler } from './ThemeToggler';
 
 export default function Navbar(props) {
-    const activeNavClassname = "text-primary hover:underline font-medium";
+    const activeNavClassname = "text-primary dark:text-red-300 hover:underline font-medium";
     const [isClicked, setIsClicked] = useState(false);
 
     const humbergerClick = (e) => {
@@ -13,8 +13,7 @@ export default function Navbar(props) {
     }
 
     return (
-        <header
-            className="h-[60px] lg:h-[80px] absolute top-0 left-0 z-10 flex w-screen items-center bg-transparent border-b-2">
+        <header className="h-[60px] lg:h-[80px] sticky top-0 left-0 z-20 flex w-screen items-center bg-transparent border-b-2 border-b-transparent bg-gray-50 bg-opacity-80 backdrop-blur-lg dark:bg-opacity-70 dark:bg-gray-800">
             <div className="container">
                 <div className="relative flex items-center justify-between">
                     <div>
@@ -49,7 +48,7 @@ export default function Navbar(props) {
                                              to='/about-us'>About Us</NavLink>
                                 </li>
                                 <li>
-                                    <ThemeToggler/>
+                                    <ThemeToggler />
                                 </li>
                             </ul>
                         </nav>
