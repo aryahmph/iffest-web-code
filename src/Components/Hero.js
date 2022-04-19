@@ -15,7 +15,7 @@ function Hero(props) {
     return (
         <section className="container mt-10 lg:mt-10">
             {/*Text*/}
-            <div className="max-w-xl xl:max-w-3xl text-center mx-auto show-on-scroll">
+            <div className="max-w-xl xl:max-w-3xl text-center mx-auto">
                 <h1 className="max-w-lg xl:max-w-2xl mx-auto font-bold text-3xl md:text-4xl xl:text-5xl text-secondary dark:text-blue-300 leading-normal">
                     <span
                         className="text-primary dark:text-red-300 leading-normal">Explore</span> the Beauty
