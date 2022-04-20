@@ -32,7 +32,7 @@ function ProfileSection(props) {
                         <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                             {props.data.map((profile, index) => {
                                 return (
-                                    <Button key={profile.id} type="link" href={profile.link} className="mb-5 group">
+                                    <Button key={profile.id} isExternal type="link" href={profile.link} className="mb-5 group">
                                         <img src={`/images/${profile.image_url}`} alt={profile.name}
                                             className="object-cover transition group-hover:opacity-80 group-hover:-translate-y-4 group-hover:shadow-xl ease-out"/>
                                         <div className="text-center mt-3">
