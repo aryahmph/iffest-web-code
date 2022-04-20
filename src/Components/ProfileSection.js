@@ -7,7 +7,7 @@ function ProfileSection(props) {
         <div className="container">
             <div className="mt-8 md:mt-12 lg:mt-20 max-w-lg mx-auto lg:max-w-full lg:grid lg:grid-cols-12">
                 <div className="mb-14 lg:mb-0 lg:col-span-5 md:pr-12 xl:pr-32">
-                    <h2 className="text-2xl md:text-4xl lg:text-3xl xl:text-4xl `font-bold text-secondary dark:text-blue-300 leading-normal">The creative people behind <span
+                    <h2 className="text-2xl md:text-4xl lg:text-3xl xl:text-4xl font-bold text-secondary dark:text-blue-300 leading-normal">The creative people behind <span
                         className="text-primary dark:text-red-300 leading-normal">Bali Province</span>.
                     </h2>
 
