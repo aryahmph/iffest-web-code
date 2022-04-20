@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import Button from "./Button";
+import Button from "../Components/Button";
 
 function CultureSection(props) {
     return (
