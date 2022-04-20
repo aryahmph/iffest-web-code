@@ -34,7 +34,7 @@ function ProfileSection(props) {
                                 return (
                                     <Button key={profile.id} type="link" href={profile.link} className="mb-5 group">
                                         <img src={`/images/${profile.image_url}`} alt={profile.name}
-                                            className="object-cover transition group-hover:opacity-80"/>
+                                            className="object-cover transition group-hover:opacity-80 group-hover:-translate-y-4 group-hover:shadow-xl ease-out"/>
                                         <div className="text-center mt-3">
                                             <h5 className="text-sm xl:text-base text-secondary dark:text-blue-300 font-medium group-hover:underline">{profile.name}</h5>
                                             <p className="xl:text-base text-gray-600 dark:text-gray-200 text-sm mt-1">{profile.title}</p>
