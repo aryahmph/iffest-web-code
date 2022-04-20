@@ -4,42 +4,42 @@
       "id": 1,
       "name": "Arya Yunanta",
       "title": "Frontend Engineer",
-      "link": "github.com/aryahmph",
+      "link": "https://github.com/aryahmph",
       "image_url": "about-1.jpg"
     },
     {
       "id": 2,
       "name": "Anya Forger",
       "title": "UX Writing Intern",
-      "link": "github.com/aryahmph",
+      "link": "https://github.com/aryahmph",
       "image_url": "about-2.jpg"
     },
     {
       "id": 3,
       "name": "Shinomiya Kaguya",
       "title": "Bali Governor",
-      "link": "github.com/aryahmph",
+      "link": "https://github.com/aryahmph",
       "image_url": "about-3.jpg"
     },
     {
       "id": 4,
       "name": "Irvan Malik",
       "title": "Frontend Developer",
-      "link": "irvanma.me",
+      "link": "https://irvanma.me",
       "image_url": "about-4.jpg"
     },
     {
       "id": 5,
       "name": "Mikasa Wangy",
       "title": "Eren Lover",
-      "link": "github.com/irvanmalik48",
+      "link": "https://github.com/irvanmalik48",
       "image_url": "about-5.jpg"
     },
     {
       "id": 6,
       "name": "Yor Forger",
       "title": "Backend Engineer",
-      "link": "github.com/irvanmalik48",
+      "link": "https://www.linkedin.com/in/irvanmalik48/",
       "image_url": "about-6.jpg"
     }
   ]
