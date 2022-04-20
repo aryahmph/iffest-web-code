@@ -32,18 +32,18 @@ export default function Navbar(props) {
                             lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none text-secondary dark:text-gray-50`}>
                             <ul className="block lg:flex">
                                 <li>
-                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary") +
+                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary lg:dark:text-white") +
                                         " hover:underline py-2 mx-8 flex"}
                                              to='/'>Home</NavLink>
                                 </li>
 
                                 <li>
-                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary") +
+                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary lg:dark:text-white") +
                                         " hover:underline py-2 mx-8 flex"}
                                              to='/explore'>Explore</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary") +
+                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary lg:dark:text-white") +
                                         " hover:underline py-2 mx-8 flex"}
                                              to='/about-us'>About Us</NavLink>
                                 </li>
