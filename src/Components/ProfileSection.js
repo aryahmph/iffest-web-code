@@ -7,13 +7,13 @@ function ProfileSection(props) {
         <div className="container">
             <div className="mt-8 md:mt-12 lg:mt-20 max-w-lg mx-auto lg:max-w-full lg:grid lg:grid-cols-12">
                 <div className="mb-14 lg:mb-0 lg:col-span-5 md:pr-12 xl:pr-32">
-                    <h2 className="text-2xl md:text-4xl lg:text-3xl xl:text-4xl font-bold text-secondary dark:text-blue-300 leading-normal">The creative people behind <span
+                    <h2 className="text-2xl md:text-4xl lg:text-3xl xl:text-4xl `font-bold text-secondary dark:text-blue-300 leading-normal">The creative people behind <span
                         className="text-primary dark:text-red-300 leading-normal">Bali Province</span>.
                     </h2>
 
                     <div className="mt-10">
                         <h3 className="md:text-2xl lg:text-lg xl:text-xl font-semibold text-secondary dark:text-blue-300">Our Main Goals</h3>
-                        <p className="text-gray-600 dark:text-gray-200 font-light mt-3 text-sm llg:text-sm">Lorem ipsum dolor sit amet, consectetur
+                        <p className="text-gray-600 dark:text-gray-200 font-light mt-3 text-sm lg:text-sm xl:text-base">Lorem ipsum dolor sit amet, consectetur
                             adipisicing elit. Adipisci aliquam distinctio eaque esse
                             fugiat illum in, ipsam iste iusto laboriosam magnam nam nisi odit omnis quaerat quos
                             repellendus
@@ -22,7 +22,7 @@ function ProfileSection(props) {
 
                     <div className="mt-10">
                         <h3 className="md:text-2xl lg:text-lg xl:text-xl font-semibold text-secondary dark:text-blue-300">How to Support Us</h3>
-                        <p className="text-gray-600 dark:text-gray-200 font-light mt-3 text-sm lg:text-sm">Lorem ipsum dolor sit amet, consectetur
+                        <p className="text-gray-600 dark:text-gray-200 font-light mt-3 text-sm lg:text-sm xl:text-base">Lorem ipsum dolor sit amet, consectetur
                             adipisicing elit. Beatae iure quasi vero voluptatum. Beatae inventore neque nostrum numquam
                             tempore vero!</p>
                     </div>
