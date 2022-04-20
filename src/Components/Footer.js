@@ -12,23 +12,22 @@ function Footer(props) {
                         instantly and memorable.</p>
                 </div>
                 <div className="">
-                    <h5 className="font-medium text-sm">For Beginners</h5>
-                    <p className="text-gray-500 dark:text-gray-300 mt-3 font-light text-[0.8rem] lg:text-[0.9rem]">New Account</p>
-                    <p className="text-gray-500 dark:text-gray-300 mt-1 font-light text-[0.8rem] lg:text-[0.9rem]">Start Booking a Room</p>
-                    <p className="text-gray-500 dark:text-gray-300 mt-1 font-light text-[0.8rem] lg:text-[0.9rem]">Use Payments</p>
+                    <h5 className="font-medium text-sm">Introduction</h5>
+                    <p className="text-gray-500 dark:text-gray-300 mt-3 font-light text-[0.8rem] lg:text-[0.9rem]">Introduction Video</p>
+                    <p className="text-gray-500 dark:text-gray-300 mt-1 font-light text-[0.8rem] lg:text-[0.9rem]">Type of Culture</p>
+                    <p className="text-gray-500 dark:text-gray-300 mt-1 font-light text-[0.8rem] lg:text-[0.9rem]">Feedback</p>
                 </div>
                 <div className="">
                     <h5 className="font-medium text-sm">Explore Us</h5>
-                    <p className="text-gray-500 dark:text-gray-300 mt-3 font-light text-[0.8rem] lg:text-[0.9rem]">Our Careers</p>
-                    <p className="text-gray-500 dark:text-gray-300 mt-1 font-light text-[0.8rem] lg:text-[0.9rem]">Privacy</p>
-                    <p className="text-gray-500 dark:text-gray-300 mt-1 font-light text-[0.8rem] lg:text-[0.9rem]">STerms & Conditions</p>
+                    <p className="text-gray-500 dark:text-gray-300 mt-3 font-light text-[0.8rem] lg:text-[0.9rem]">Popular Destination</p>
+                    <p className="text-gray-500 dark:text-gray-300 mt-1 font-light text-[0.8rem] lg:text-[0.9rem]">Local Culture</p>
+                    <p className="text-gray-500 dark:text-gray-300 mt-1 font-light text-[0.8rem] lg:text-[0.9rem]">Traditional Dances</p>
                 </div>
                 <div className="">
-                    <h5 className="font-medium text-sm">Connect Us</h5>
-                    <p className="text-gray-500 mt-3 dark:text-gray-300 font-light text-[0.8rem] lg:text-[0.9rem]">support@staycation.id</p>
+                    <h5 className="font-medium text-sm">Contact</h5>
+                    <p className="text-gray-500 mt-3 dark:text-gray-300 font-light text-[0.8rem] lg:text-[0.9rem]">bali@callcenter.com</p>
                     <p className="text-gray-500 mt-1 dark:text-gray-300 font-light text-[0.8rem] lg:text-[0.9rem]">021 - 2208 - 1996</p>
-                    <p className="text-gray-500 mt-1 dark:text-gray-300 font-light text-[0.8rem] lg:text-[0.9rem]">Staycation, Kemang,
-                        Jakarta</p>
+                    <p className="text-gray-500 mt-1 dark:text-gray-300 font-light text-[0.8rem] lg:text-[0.9rem]">Denpasar, Bali</p>
                 </div>
                 <div className="">
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "./Button";
+import Button from "../Components/Button";
 import DestinationImage from "../Assets/Images/destination.jpg";
 import CultureImage from "../Assets/Images/culture.jpg";
 import { Fade } from 'react-reveal';

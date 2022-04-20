@@ -4,7 +4,7 @@ import TestimonialImageDark from '../Assets/Images/img-testimonial-dark.png';
 import QuoteTopSVG from '../Assets/Images/quote-top.svg';
 import QuoteBottomSVG from '../Assets/Images/quote-bottom.svg';
 import { useContext, useState, useEffect } from 'react';
-import { ThemeContext } from './ThemeProvider';
+import { ThemeContext } from '../Components/ThemeProvider';
 import { Fade } from 'react-reveal';
 
 function Testimonial(props) {

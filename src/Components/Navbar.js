@@ -4,7 +4,7 @@ import BrandIcon from "./BrandIcon";
 import { ThemeToggler } from './ThemeToggler';
 
 export default function Navbar(props) {
-    const activeNavClassname = "text-primary dark:text-red-300 hover:underline font-medium";
+    const activeNavClassname = "text-primary dark:text-red-300 hover:underline dark:text-red-300 font-medium";
     const [isClicked, setIsClicked] = useState(false);
 
     const humbergerClick = (e) => {
@@ -29,7 +29,7 @@ export default function Navbar(props) {
 
                         <nav
                             className={`${isClicked ? "" : "hidden"} absolute py-6 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full
-                            lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none`}>
+                            lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none dark:text-secondary`}>
                             <ul className="block lg:flex">
                                 <li>
                                     <NavLink className={({isActive}) => (isActive ? activeNavClassname : "") +

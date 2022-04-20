@@ -1,7 +1,7 @@
 import React from 'react';
-import Hero from "../Components/Hero";
-import Description from "../Components/Description";
-import Testimonial from "../Components/Testimonial";
+import Hero from "../Parts/Hero";
+import Description from "../Parts/Description";
+import Testimonial from "../Parts/Testimonial";
 
 function Home(props) {
     return (

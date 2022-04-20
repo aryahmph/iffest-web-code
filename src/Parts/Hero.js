@@ -1,6 +1,6 @@
 import React from 'react';
 import { useContext, useState, useEffect } from 'react';
-import { ThemeContext } from './ThemeProvider';
+import { ThemeContext } from '../Components/ThemeProvider';
 
 function Hero(props) {
     const {theme} = useContext(ThemeContext);
