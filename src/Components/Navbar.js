@@ -4,7 +4,7 @@ import BrandIcon from "./BrandIcon";
 import { ThemeToggler } from './ThemeToggler';
 
 export default function Navbar(props) {
-    const activeNavClassname = "text-primary dark:text-red-300 hover:underline dark:text-red-300 font-medium";
+    const activeNavClassname = "text-primary dark:text-red-400 hover:underline dark:text-red-300 font-medium";
     const [isClicked, setIsClicked] = useState(false);
 
     const humbergerClick = (e) => {
@@ -32,18 +32,18 @@ export default function Navbar(props) {
                             lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none text-secondary dark:text-gray-50`}>
                             <ul className="block lg:flex">
                                 <li>
-                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "") +
+                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary") +
                                         " hover:underline py-2 mx-8 flex"}
                                              to='/'>Home</NavLink>
                                 </li>
 
                                 <li>
-                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "") +
+                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary") +
                                         " hover:underline py-2 mx-8 flex"}
                                              to='/explore'>Explore</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "") +
+                                    <NavLink className={({isActive}) => (isActive ? activeNavClassname : "dark:text-secondary") +
                                         " hover:underline py-2 mx-8 flex"}
                                              to='/about-us'>About Us</NavLink>
                                 </li>

@@ -3,7 +3,7 @@ import BrandIcon from "./BrandIcon";
 
 function Footer(props) {
     return (
-        <footer className="mt-20 border-t-2 border-gray-200 dark:border-transparent pt-12 pb-8">
+        <footer className="mt-20 border-t-2 border-gray-200 dark:border-gray-700 pt-12 pb-8">
             <div className="container md:grid md:grid-cols-5 md:gap-5 lg:gap-10 space-y-5 md:space-y-0">
                 <div className="col-span-2">
                     <BrandIcon/>
